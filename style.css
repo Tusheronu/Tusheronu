@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #00a876a6;
+    text-align: center;
+}
+
+
+header{
+    width:100%;
+    padding: 10px 5%;
+    background-color:#ffee0060;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav >a{
+    font-size: 20px;
+}
+.sh{
+    width:20%;
+}
+header a{
+    text-decoration: none;
+    color: #5C0DAC;
+    margin:0 10px;
+}
+header a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    margin:0 10px;
+}
+header>h2{
+    color: #5C0DAC;
+}
+main{
+    color: #5C0DAC;
+}
+main>h1{
+    font-size: 50px;
+    text-align: center;
+}
+.first{
+    display: inline-block;
+    width: 70%;
+    flex-direction: row;
+    
+}
+.kol{
+    width: 30px;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+article{
+    color: #5C0DAC;
+}
+
+
+
+/*Медиа-запрос для ширины 320px - мобильные устройства*/
+@media (min-width: 320px) { 
+    /*Стили для минимальной ширины в 320px*/
+    .img{
+        width: 150px;
+    }
+    nav >a{
+        font-size: 11px;
+        padding: 0;
+        margin-right: 3px;
+    }
+    .sh{
+        width:0%;
+    }
+}
+
+/*Медиа-запрос для ширины 768px - планшеты*/
+@media (min-width: 768px) { 
+    /*Стили для минимальной ширины в 768px*/
+}
+
+/*Медиа-запрос для ширины 1200px - десктопы*/
+@media (min-width: 1200px) { 
+    /*Стили для минимальной ширины в 1200px*/
+    .img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    nav >a{
+        font-size: 20px;
+    }
+    .sh{
+        width:20%;
+    }
+}
+
+/*Медиа-запрос для ширины 1400px - большие экраны*/
+@media (min-width: 1400px) { 
+    /*Стили для минимальной ширины в 1400px*/
+    .img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    nav >a{
+        font-size: 20px;
+    }
+    .sh{
+        width:20%;
+    }
+}
